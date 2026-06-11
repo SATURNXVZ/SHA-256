@@ -165,7 +165,7 @@ void sha256(const uint8_t *mensagem, size_t tamanho, uint8_t *saida) {
 
 int main() {
     uint8_t hash[32];
-    const char *teste = "Hello World!";
+    const char *teste = "Oi eu sou o Vitor";
     
     sha256((const uint8_t*)teste, strlen(teste), hash);
     
